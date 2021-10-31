@@ -1,0 +1,33 @@
+body{
+	margin: 0;
+}
+
+.bg-image{
+	padding-top: 10%;
+}
+
+.jobsearch{
+   margin-top: 10%;
+}
+
+.customButton{
+	
+	height:100%;
+	padding-top: 10px;
+	
+	color: whitesmoke;
+	width:100%;
+	
+}
+
+.button-container:hover {
+  cursor: pointer;
+}
+
+
+.button-container{
+	
+	height: 50px;
+	width:130px;
+}
+
