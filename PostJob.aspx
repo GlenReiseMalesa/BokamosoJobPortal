@@ -42,7 +42,7 @@
 
                         <div class="form-group"  style="margin-top: 10px;">
                             <label for="email">Date of birth</label>
-                            <input type="date" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
+                            <input type="date" class="form-control" id="dob" aria-describedby="emailHelp" placeholder="Enter email" required>
                            
                         </div>
 

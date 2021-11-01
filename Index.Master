@@ -24,6 +24,16 @@
 
 </head>
 <body class="bg-light">
+
+
+<nav class="navbar navbar-dark bg-light " style="width:100%;">
+  <div class="container" style="width:20px;margin:0 auto;">
+    <a class="navbar-brand" href="#">
+      <img src="person-circle.svg" alt="" width="30" height="24">
+    </a>
+  </div>
+</nav>
+
 <!-- navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding-top:0;padding-bottom: 0;">
   <div class="container-fluid">

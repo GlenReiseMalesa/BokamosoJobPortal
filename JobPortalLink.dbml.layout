@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="JobPortalLink">
+  <DataContextMoniker Name="/JobPortalLinkDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a11fcc61-5e9d-44ee-af30-c6258bd6d4a2" absoluteBounds="0.75, 1.375, 2, 1.9631982421875">
+      <DataClassMoniker Name="/JobPortalLinkDataContext/JobPost" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4f946f10-21e6-49f0-bdd7-943a9a331199" absoluteBounds="0.765, 1.835, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="07c8a6a5-f548-45d6-8e80-cc88d224af98" absoluteBounds="0.625, 4.125, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/JobPortalLinkDataContext/Person" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b6093480-1f55-45c6-a412-9556887fec55" absoluteBounds="0.64, 4.585, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ce4a38d6-18b7-42e1-a65f-c6bbb6292314" absoluteBounds="3.25, 3.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/JobPortalLinkDataContext/PersonApplied" />
+      <nestedChildShapes>
+        <elementListCompartment Id="33da62bd-6296-498e-a340-9427fdddc612" absoluteBounds="3.265, 4.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

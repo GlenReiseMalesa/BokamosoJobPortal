@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Bokamoso_Job_Portal.JobPortalBackend" CodeBehind="JobPortalBackend.svc.cs" %>
