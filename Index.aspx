@@ -24,15 +24,18 @@
 <div class="col-sm-12">
   <div class="content">
     
-  <form>  
+   <form runat="server" > 
   <div class="input-group">
-         <input type="email" class="form-control" placeholder="Search For A Job">
+      
+         <input type="text" id="search" runat="server" class="form-control" placeholder="Search For A Job">
          <span class="input-group-btn">
-         <button class="btn bg-dark" style="color:whitesmoke;" type="submit">SEARCH</button>
+         <asp:Button class="btn bg-dark" runat="server" OnClick="Search" Text="SEARCH" style="color:whitesmoke;" ID="sub"></asp:Button>
          </span>
+     
       </div>
   </div>
-  </form>
+        </form>
+ 
 </div>
 </div>
 </div>

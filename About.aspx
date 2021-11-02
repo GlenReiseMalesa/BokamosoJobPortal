@@ -9,10 +9,14 @@
         <h1 class="jumbotron-heading">ABOUT US</h1>
         <p class="lead text-muted mb-0">
         
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet est nisi. Nam ex ante, porttitor non metus vitae, consectetur egestas odio. Maecenas orci nisi, varius eget molestie ut, accumsan ac quam. Nam tempus, massa rhoncus facilisis volutpat, diam massa sodales sapien, sed tristique lorem justo id leo. Suspendisse pulvinar mauris eget augue pulvinar eleifend. In euismod libero at est egestas dignissim. Sed a odio quis diam euismod ultricies. Integer aliquam, neque sed cursus viverra, ipsum est tempor est, nec suscipit felis tellus ut est.
 
-Etiam viverra rhoncus tincidunt. Curabitur dictum vitae lectus at feugiat. Ut faucibus, magna vel pretium posuere, erat nisi rhoncus leo, id volutpat sapien libero et orci. Cras mi arcu, consequat sit amet auctor in, cursus ac magna. Cras ac odio rutrum, mattis dui a, vehicula velit. Aenean volutpat, lorem at commodo malesuada, nisi nisi tincidunt risus, eget tristique turpis ante sed lorem. Fusce mollis, nisl sit amet pharetra convallis, leo ante euismod purus, at vehicula massa risus ut erat. Aenean euismod nisl ante, vitae fermentum sem blandit in. Nullam feugiat, felis eget volutpat scelerisque, nibh odio malesuada ex, id fringilla leo libero fermentum dolor. Vestibulum pellentesque purus non placerat cursus. Pellentesque accumsan arcu quis vestibulum ullamcorper. Vestibulum et est ut sem mattis hendrerit. Sed turpis nisi, tincidunt a dapibus in, bibendum a libero.
-
+    
+    <h3 style="text-align: center;">Welcome To <span id="W_Name1">Ex-BokamosoJobPortal</span></h3>
+    <p><span id="W_Name2">BokamosoJobPortal</span> is a Professional <span id="W_Type1">Ex-finance</span> Platform. Here we will provide you only interesting content, which you will like very much. We're dedicated to providing you the best of <span id="W_Type2">Ex-finance</span>, with a focus on dependability and <span id="W_Spec">Ex-job search</span>. We're working to turn our passion for <span id="W_Type3">Ex-finance</span> into a booming <a href="https://www.blogearns.com" rel="do-follow" style="color:inherit; text-decoration: none;">online website</a>. We hope you enjoy our <span id="W_Type4">Ex-finance</span> as much as we enjoy offering them to you.</p>
+<p>I will keep posting more important posts on my Website for all of you. Please give your support and love.</p>
+<p style="font-weight: bold; text-align: center;">Thanks For Visiting Our Site<br><br>
+<span style="color: blue; font-size: 16px; font-weight: bold; text-align: center;">Have a nice day !</span></p>
+    
 
         </p>
     </div>

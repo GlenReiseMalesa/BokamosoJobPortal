@@ -45,5 +45,14 @@ namespace Bokamoso_Job_Portal
             displayJob.InnerHtml = display;
 
         }
-    }
+
+
+
+        protected void Search(object sender, EventArgs e)
+        {
+            Response.Redirect("SearchResults.aspx?query="+search.Value);
+        }
+
+
+  }
 }

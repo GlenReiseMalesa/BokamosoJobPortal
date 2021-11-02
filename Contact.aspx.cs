@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -12,6 +13,13 @@ namespace Bokamoso_Job_Portal
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        protected void contact_send(object sender, EventArgs e)
+        {
+
+            Process.Start("mailto:malesaglen6@gmail.com?subject=" + name.Value + "&body="
+             + message.Value);
         }
     }
 }

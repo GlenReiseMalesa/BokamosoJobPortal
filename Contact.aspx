@@ -8,22 +8,22 @@
                 <div class="card-header bg-dark text-white"><i class="fa fa-envelope"></i> Contact us.
                 </div>
                 <div class="card-body">
-                    <form>
+                    <form runat="server">
                         <div class="form-group">
                             <label for="name mb-5">Name</label>
-                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter name" required>
+                            <input type="text" class="form-control" runat="server"  id="name" aria-describedby="emailHelp" placeholder="Enter name" required>
                         </div>
                         <div class="form-group"  style="margin-top: 10px;">
                             <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
+                            <input type="email" class="form-control" runat="server" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
                            
                         </div>
                         <div class="form-group"  style="margin-top: 10px;">
                             <label for="message">Message</label>
-                            <textarea class="form-control" id="message" rows="6" required></textarea>
+                            <textarea class="form-control" id="message" runat="server"  rows="6" required></textarea>
                         </div>
                         <div class="mx-auto" style="margin-top: 10px;">
-                        <button type="submit" class="btn btn-dark text-right">Send</button></div>
+                        <asp:Button ID="submitz" runat="server" OnClick="contact_send" Text="Send" class="btn btn-dark text-right"></asp:Button></div>
                     </form>
                 </div>
             </div>
