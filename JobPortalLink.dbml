@@ -24,7 +24,7 @@
   </Table>
   <Table Name="dbo.PersonApplied" Member="PersonApplieds">
     <Type Name="PersonApplied">
-      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
       <Column Name="PersonID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
       <Column Name="JobID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
     </Type>

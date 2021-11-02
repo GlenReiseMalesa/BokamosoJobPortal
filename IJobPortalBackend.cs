@@ -12,10 +12,10 @@ namespace Bokamoso_Job_Portal
     public interface IJobPortalBackend
     {
         [OperationContract]
-        bool createAccount(string FullName,string EmailAddress,string Gender,string DOB,string Password,string HomeAddress,string Type);
+        bool createAccount(string FullName,string EmailAddress,string Gender,string DOB,string Password,   string HomeAddress,string Type);
 
         [OperationContract]
-        bool createJobPost(string CompanyName, string JobTitle,string JobDescription, string Location, string Salary);
+        bool createJobPost(string CompanyName, string JobTitle,string JobDescription, string Location, decimal Salary);
 
         [OperationContract]
         bool addPersonApplied(int PersonID,int JobID);
@@ -26,9 +26,16 @@ namespace Bokamoso_Job_Portal
         [OperationContract]
         List<JobPost> jobPosts();
 
+        [OperationContract]
+        List<JobPost> getUniquePersonAppliedJobs(int id);
 
 
+        [OperationContract]
 
+        int SignedInID(string EmailAddress,string Password);
+
+        [OperationContract]
+        string getAccountType(int id);
 
     }
 }

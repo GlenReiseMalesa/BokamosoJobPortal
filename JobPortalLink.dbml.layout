@@ -14,10 +14,10 @@
         <elementListCompartment Id="b6093480-1f55-45c6-a412-9556887fec55" absoluteBounds="0.64, 4.585, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="ce4a38d6-18b7-42e1-a65f-c6bbb6292314" absoluteBounds="3.25, 3.75, 2, 1.3862939453125">
+    <classShape Id="a8b17f21-abd0-43ff-8bb2-15ed144b7923" absoluteBounds="4.25, 4, 2, 1.3862939453125">
       <DataClassMoniker Name="/JobPortalLinkDataContext/PersonApplied" />
       <nestedChildShapes>
-        <elementListCompartment Id="33da62bd-6296-498e-a340-9427fdddc612" absoluteBounds="3.265, 4.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="cf127581-d554-4a35-99ea-412b2fca833a" absoluteBounds="4.265, 4.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
   </nestedChildShapes>

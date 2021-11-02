@@ -12,6 +12,15 @@ namespace Bokamoso_Job_Portal
         protected void Page_Load(object sender, EventArgs e)
         {
 
+            if (Session["loginID"] == null)
+            {
+                displayLoginbtn.InnerHtml = "<div class='customButton' style='background-color:#F0FFFF;color: black;'>LOGIN</div>";
+            }
+            else
+            {
+                displayLoginbtn.InnerHtml = "<div class='customButton' style='background-color:#D10000;'>Logout</div>";
+            }
+
         }
     }
 }

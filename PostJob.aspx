@@ -18,31 +18,31 @@
                 <div class="card-header  text-white" style="background-color:#00FFFF;"><i class="fa fa-user-circle"></i>  Fill In Your Information
                 </div>
                 <div class="card-body">
-                    <form>
+                    <form runat="server">
                         <div class="form-group">
                             <label for="name mb-5">Full Name</label>
-                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter name" required>
+                            <input type="text" class="form-control" runat="server" id="name" aria-describedby="emailHelp" placeholder="Enter name" required>
                         </div>
 
 
                         <div class="form-group"  style="margin-top: 10px;">
                             <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
+                            <input type="email" class="form-control" runat="server" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
                            
                         </div>
 
 												<div class="form-group"  style="margin-top: 10px;">
 												<label for="email">Gender</label>
-												<select class="form-select" aria-label="Default select example">
-												  <option value="1">Male</option>
-												  <option value="2">Female</option>
-												  <option value="3">Other</option>
+												<select class="form-select" id="gender" runat="server" aria-label="Default select example">
+												  <option value="Male">Male</option>
+												  <option value="Female">Female</option>
+												  <option value="Other">Other</option>
 												</select>
 												</div>
 
                         <div class="form-group"  style="margin-top: 10px;">
                             <label for="email">Date of birth</label>
-                            <input type="date" class="form-control" id="dob" aria-describedby="emailHelp" placeholder="Enter email" required>
+                            <input type="date" class="form-control" runat="server"  id="dob" aria-describedby="emailHelp" placeholder="Enter email" required>
                            
                         </div>
 
@@ -50,16 +50,16 @@
 
 								    <div class="form-group"  style="margin-top: 10px;">
 								    <label for="exampleInputPassword1" class="form-label">Password</label>
-								    <input type="password" placeholder="Password" class="form-control" id="exampleInputPassword1">
+								    <input type="password" runat="server"  placeholder="Password" class="form-control" id="exampleInputPassword1">
                            
                         </div>
 
                         <div class="form-group"  style="margin-top: 10px;">
                             <label for="message">Address</label>
-                            <textarea class="form-control" id="message" rows="6" required></textarea>
+                            <textarea class="form-control" runat="server"  id="message" rows="6" required></textarea>
                         </div>
                         <div class="mx-auto" style="margin-top: 10px;">
-                        <button type="submit" class="btn  text-right" style="background-color:#00FFFF;color: whitesmoke;">Create Account</button></div>
+                        <asp:Button ID="submit7" runat="server" OnClick="reg" Text="Create Account" class="btn  text-right" style="background-color:#00FFFF;color: whitesmoke;"></asp:Button></div>
                     </form>
                 </div>
             </div>

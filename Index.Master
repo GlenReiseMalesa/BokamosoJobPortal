@@ -28,7 +28,7 @@
 
 <nav class="navbar navbar-dark bg-light " style="width:100%;">
   <div class="container" style="width:20px;margin:0 auto;">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="ChooseAccountManager.aspx">
       <img src="person-circle.svg" alt="" width="30" height="24">
     </a>
   </div>
@@ -74,8 +74,8 @@
 
 
 <a class="nav-link"  href="Login.aspx">
-  <div class="row button-container" style="text-align: center;">
-    <div class="customButton" style="background-color:#F0FFFF;color: black;">LOGIN</div> 
+  <div class="row button-container" style="text-align: center;" id="displayLoginbtn" runat="server">
+    
   </div>
 </a>
       </form>

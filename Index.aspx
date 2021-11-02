@@ -49,84 +49,24 @@
 <section class="jumbotron text-center" style="margin-top: 4%;margin-bottom: 4%;">
     <div class="container">
         <h1 class="jumbotron-heading">LATEST JOBS</h1>
-        <p class="lead text-muted mb-0">Total - 100</p>
+        <p class="lead text-muted mb-0" id="displayNumJobs" runat="server">
+
+
+
+
+        </p>
     </div>
 </section>
 
 
-<ul class="list-group list-group-flush bg-light">
-  <li class="list-group-item">
-
-      <div class="card">
-        <div class="card-header">
-          Company Name
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Job Title</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Apply</a>
-        </div>
-      </div>
-
-  </li>
-  <li class="list-group-item">
-
-      <div class="card">
-        <div class="card-header">
-          Company Name
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Job Title</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Apply</a>
-        </div>
-      </div>
-
-  </li>
-  <li class="list-group-item">
-
-      <div class="card">
-        <div class="card-header">
-          Company Name
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Job Title</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Apply</a>
-        </div>
-      </div>
+<ul class="list-group list-group-flush bg-light" id="displayJob" runat="server">
 
 
-  </li>
-  <li class="list-group-item">
-
-      <div class="card">
-        <div class="card-header">
-          Company Name
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Job Title</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Apply</a>
-        </div>
-      </div>
-    
-  </li>
-  <li class="list-group-item">
-
-      <div class="card">
-        <div class="card-header">
-          Company Name
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Job Title</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Apply</a>
-        </div>
-      </div>
 
 
-  </li>
+
+
+
 </ul>
 
 

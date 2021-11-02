@@ -77,12 +77,16 @@
       <DependentUpon>JobPortalDB.mdf</DependentUpon>
     </Content>
     <Content Include="background.jpg" />
+    <Content Include="ChooseAccountManager.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="jobicon.png" />
     <Content Include="JobPortalBackend.svc" />
+    <Content Include="JobPosterDashboard.aspx" />
     <Content Include="JobSeeker.aspx" />
+    <Content Include="JobSeekerDashboard.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="PersonHasApplied.aspx" />
     <Content Include="PostJob.aspx" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
@@ -94,6 +98,13 @@
     </Compile>
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseAccountManager.aspx.cs">
+      <DependentUpon>ChooseAccountManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChooseAccountManager.aspx.designer.cs">
+      <DependentUpon>ChooseAccountManager.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
@@ -125,6 +136,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>JobPortalLink.dbml</DependentUpon>
     </Compile>
+    <Compile Include="JobPosterDashboard.aspx.cs">
+      <DependentUpon>JobPosterDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobPosterDashboard.aspx.designer.cs">
+      <DependentUpon>JobPosterDashboard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="JobSeeker.aspx.cs">
       <DependentUpon>JobSeeker.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -132,12 +150,26 @@
     <Compile Include="JobSeeker.aspx.designer.cs">
       <DependentUpon>JobSeeker.aspx</DependentUpon>
     </Compile>
+    <Compile Include="JobSeekerDashboard.aspx.cs">
+      <DependentUpon>JobSeekerDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekerDashboard.aspx.designer.cs">
+      <DependentUpon>JobSeekerDashboard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PersonHasApplied.aspx.cs">
+      <DependentUpon>PersonHasApplied.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PersonHasApplied.aspx.designer.cs">
+      <DependentUpon>PersonHasApplied.aspx</DependentUpon>
     </Compile>
     <Compile Include="PostJob.aspx.cs">
       <DependentUpon>PostJob.aspx</DependentUpon>

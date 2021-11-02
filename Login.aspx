@@ -11,21 +11,22 @@
           <div class="card-body p-5 text-center">
 
             <h3 class="mb-5">Sign in</h3>
-
+             <form runat="server">
             <div class="form-outline mb-4">
-              <input type="email" id="typeEmailX-2" class="form-control form-control-lg" />
+              <input type="email" runat="server" id="email" class="form-control form-control-lg" />
               <label class="form-label" for="typeEmailX-2">Email</label>
             </div>
 
             <div class="form-outline mb-4">
-              <input type="password" id="typePasswordX-2" class="form-control form-control-lg" />
+              <input type="password" runat="server" id="password" class="form-control form-control-lg" />
               <label class="form-label" for="typePasswordX-2">Password</label>
             </div>
 
 
 
-            <button class="btn btn-primary btn-lg btn-block" type="submit">Login</button>
+            <asp:Button Text="Login" runat="server" OnClick="sign_in" class="btn btn-primary btn-lg btn-block" ID="submit1"></asp:Button>
 
+            </form>
 
 
           </div>
